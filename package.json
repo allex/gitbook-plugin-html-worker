@@ -1,0 +1,38 @@
+{
+  "name": "gitbook-plugin-html-worker",
+  "version": "0.0.1",
+  "description": "This is a HTML worker for gitbook generator.",
+  "main": "index.js",
+  "author": "allex <allex.wxn@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allex/gitbook-plugin-html-worker"
+  },
+  "keywords": [
+    "html",
+    "worker",
+    "minify",
+    "minifier",
+    "gitbook",
+    "plugin"
+  ],
+  "gitbook": {
+    "properties": {
+      "outro": {
+        "type": "string",
+        "default": "outro.inc",
+        "description": "Include file to inject to layout index.html"
+      }
+    }
+  },
+  "dependencies": {
+    "html-minifier": "^3.5.15"
+  },
+  "engines": {
+    "node": ">=5.12.0"
+  },
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "license": "MIT"
+}
